@@ -1,0 +1,9 @@
+DecoratorDesignPattern/Mage.class
+DecoratorDesignPattern/PlayerDecorator.class
+DecoratorDesignPattern/WeaponUpgrade.class
+DecoratorDesignPattern/Player.class
+DecoratorDesignPattern/Healer.class
+DecoratorDesignPattern/Skill.class
+DecoratorDesignPattern/Warrior.class
+DecoratorDesignPattern/VideoGameDriver.class
+DecoratorDesignPattern/ArmorUpgrade.class

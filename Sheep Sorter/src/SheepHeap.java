@@ -1,5 +1,6 @@
-/*
- * by Nick Comfort
+/**
+ *
+ * @author adameinstein
  */
 public class SheepHeap <Sheep extends Comparable>{
 

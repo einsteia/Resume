@@ -1,5 +1,6 @@
-/*
- * by Nick Comfort
+/**
+ *
+ * @author adameinstein
  */
 import java.util.Random;
 public class SheepHeapTester {

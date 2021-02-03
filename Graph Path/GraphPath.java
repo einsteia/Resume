@@ -1,4 +1,7 @@
-
+/**
+ *
+ * @author adameinstein
+ */
 public class GraphPath {
 
     public static void cycles(int[][] matrix) {

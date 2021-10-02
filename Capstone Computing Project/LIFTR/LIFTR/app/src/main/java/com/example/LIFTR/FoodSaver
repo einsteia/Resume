@@ -1,0 +1,31 @@
+package com.example.setting;
+import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.IOException;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class FoodWriter {
+
+    public static final String FOOD_FILE = "Setting/app/src/main/java/com/example/setting/Foods.json";
+
+    public static void saveFood(JSONObject food) {
+
+        try {
+            FileReader reader = new FileReader(FOOD_FILE);
+            JSONParser parser = new JSONParser();
+            JSONArray foodJSON = (JSONArray)parser.parse(reader);
+
+            foodJSON.add(food);
+
+            FileWriter file = new FileWriter(FOOD_FILE);
+            file.write(foodJSON.toJSONString());
+            file.flush();
+            file.close();
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

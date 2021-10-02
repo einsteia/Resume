@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Red Apple",
+    "servingType": "Apples",
+    "servingSize": 1,
+    "calories": 95,
+    "carbs": 25,
+    "protein": 0.3
+  }
+]

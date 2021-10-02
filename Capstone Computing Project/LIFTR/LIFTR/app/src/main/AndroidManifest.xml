@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.LIFTR">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/liftr_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/liftr_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ETestActivity"></activity>
+        <activity
+            android:name=".FoodListMain"
+            android:label="@string/title_activity_food_list_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FoodListAdapter"
+            android:label="@string/title_activity_food_list_adapter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddFood"
+            android:label="@string/title_activity_add_food"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".adamMainActivity"
+            android:label="@string/title_activity_adam_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeScreen1"
+            android:label="@string/title_activity_home_screen1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user"
+            android:label="@string/title_activity_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Opening4"
+            android:label="@string/title_activity_opening4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Opening3"
+            android:label="@string/title_activity_opening3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Opening2"
+            android:label="@string/title_activity_opening2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Opening1"
+            android:label="LIFTR"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Workout"
+            android:label="@string/title_activity_workout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyOtherActivity"
+            android:label="@string/title_activity_my_other"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

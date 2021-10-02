@@ -1,0 +1,20 @@
+package com.example.setting;
+import java.util.ArrayList;
+
+public class FoodsInstance {
+    public static FoodsInstance foods = null;
+    public static ArrayList<food> foodList = new ArrayList<>();
+
+    private FoodsInstance() {
+        foodList = FoodLoader.loadFoods();
+    }
+
+    public static FoodsInstance getInstance() {
+        if (foods == null) foods = new FoodsInstance();
+        return foods;
+    }
+
+    public ArrayList<food> getFoods() {
+        return foodList;
+    }
+}

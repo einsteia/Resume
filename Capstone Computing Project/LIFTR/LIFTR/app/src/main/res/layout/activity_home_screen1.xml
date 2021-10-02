@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <TextView
+        android:id="@+id/textViewCalBurn"
+        android:layout_width="135dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="296dp"
+        android:gravity="center"
+        android:text="Calorie Goal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="351dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewJT4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="268dp"
+        android:text="Calorie Burning Goal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewJT5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="268dp"
+        android:text="Calorie Goal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCalGoal"
+        android:layout_width="135dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="296dp"
+        android:gravity="center"
+        android:text="Calorie Goal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewJT6"
+        android:layout_width="383dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="108dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Hello"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:id="@+id/appBarLayout"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:theme="@style/Theme.HomeScreen1.AppBarOverlay">-->
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="411dp"-->
+    <!--        android:layout_height="48dp"-->
+    <!--        android:background="#8BC34A"-->
+    <!--        app:layout_anchor="@+id/appBarLayout"-->
+    <!--        app:layout_anchorGravity="center"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:popupTheme="@style/Theme.HomeScreen1.PopupOverlay"-->
+    <!--        app:titleTextColor="#8BC34A" />-->
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonae5"
+        android:layout_width="111dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="560dp"
+        android:clickable="true"
+        android:onClick="goToFoodList"
+        android:text="Food List"
+        app:backgroundTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_format_list_numbered_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonJT"
+        android:layout_width="111dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="408dp"
+        android:clickable="true"
+        android:onClick="goToWorkout"
+        android:text="Workout"
+        app:backgroundTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_fitness_center_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/nutcharttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Nutrition Chart"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonJT3"
+        app:layout_constraintEnd_toStartOf="@+id/buttonJT3"
+        app:layout_constraintTop_toTopOf="@+id/buttonJT3"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <TextView
+        android:id="@+id/addfdtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Add Food"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonae7"
+        app:layout_constraintStart_toEndOf="@+id/buttonae7"
+        app:layout_constraintTop_toTopOf="@+id/buttonae7"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/workouttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Workout"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonJT"
+        app:layout_constraintStart_toEndOf="@+id/buttonJT"
+        app:layout_constraintTop_toTopOf="@+id/buttonJT"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonJT3"
+        android:layout_width="111dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="480dp"
+        android:clickable="true"
+        android:onClick="goToTrack"
+        android:text="@string/nutrition_chart"
+        app:backgroundTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_multiline_chart_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonae7"
+        android:layout_width="111dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="560dp"
+        android:clickable="true"
+        android:onClick="gotoAddFood"
+        android:text="Add Food"
+        app:backgroundTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_playlist_add_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonJT4"
+        android:layout_width="111dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginLeft="224dp"
+        android:layout_marginTop="480dp"
+        android:clickable="true"
+        android:onClick="goToSetting"
+        android:text="Settings"
+        app:backgroundTint="#020202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_settings_applications_24" />
+
+    <TextView
+        android:id="@+id/sttingtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonJT4"
+        app:layout_constraintStart_toEndOf="@+id/buttonJT4"
+        app:layout_constraintTop_toTopOf="@+id/buttonJT4"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/fdlisttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Food List"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonae5"
+        app:layout_constraintEnd_toStartOf="@+id/buttonae5"
+        app:layout_constraintTop_toTopOf="@+id/buttonae5"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView"-->
+    <!--        android:layout_width="152dp"-->
+    <!--        android:layout_height="176dp"-->
+    <!--        android:layout_marginStart="128dp"-->
+    <!--        android:layout_marginLeft="128dp"-->
+    <!--        android:layout_marginTop="76dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/_586940778pie_chart_design_freesvg_org" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView5"-->
+    <!--        android:layout_width="81dp"-->
+    <!--        android:layout_height="82dp"-->
+    <!--        android:layout_marginStart="244dp"-->
+    <!--        android:layout_marginLeft="244dp"-->
+    <!--        android:layout_marginTop="216dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/img_468692" />-->
+
+    <!--    <com.google.android.material.bottomappbar.BottomAppBar-->
+    <!--        android:id="@+id/bottomAppBar"-->
+    <!--        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom"-->
+    <!--        app:backgroundTint="#8BC34A"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView8"-->
+    <!--        android:layout_width="113dp"-->
+    <!--        android:layout_height="88dp"-->
+    <!--        android:layout_marginStart="64dp"-->
+    <!--        android:layout_marginLeft="64dp"-->
+    <!--        android:layout_marginTop="208dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:srcCompat="@drawable/_17b14d299caeb63f241df51cad5776a_green_pie_chart_by_vexels" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="217dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/liftr_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

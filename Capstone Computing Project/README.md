@@ -1,6 +1,4 @@
 
-# TheChads
-
 Our vision for this project is to create an all-in-one fitness application. The user will be able to create an account when opening the app. The application will include an easy to use nutrition tracker for carbs, proteins, fats, as well as store information on your daily caloric intake. The user will enter in what they eat, and a nutrition chart will develop throughout the day to let the user know what they may need more or less of, or what they are doing well in. The user will also be able to enter in their weight, height, age, and what their fitness goal is as well as change these settings. Our app will then recommend daily workouts based on their specifed bodytype, fitness level, and desired goal to help ensure a committed healthy lifestyle with results. The platform in which we want our app to run on is Android devices. We will implement our mobile application via Android native Java language.
 
 

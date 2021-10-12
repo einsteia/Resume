@@ -1,4 +1,5 @@
-# Projects and games written by Adam Einstein
+# Projects and games 
+# Written by Adam Einstein
 
 ## University of South Carolina 
 ### Swearengin College of Engineering and Computing

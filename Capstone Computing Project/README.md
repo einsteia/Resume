@@ -45,6 +45,7 @@ For this application, the only testing technology required is Android Studio.
 Simply click on the green play button, and an Android emulator will start. The app can then be opened and tested.
 
 
+
 # Screenshots
 ![StartScreen](https://user-images.githubusercontent.com/69927855/147393143-4299303a-d0da-4f52-8868-aa8479704aea.png)
 ![HomeScreen](https://user-images.githubusercontent.com/69927855/147393014-1621a847-aa35-4757-a2e4-548fb79bd0b6.png)

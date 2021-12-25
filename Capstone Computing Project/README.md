@@ -6,9 +6,6 @@ The application will also include an easy-to-use nutrition tracker for carbs, pr
 
 The platform in which we want our app to run on is Android devices. We will implement our mobile application via Android native Java language.
 
-
-
-
 ## External Requirements
 
 In order to build this project you first have to install:
@@ -48,7 +45,13 @@ For this application, the only testing technology required is Android Studio.
 Simply click on the green play button, and an Android emulator will start. The app can then be opened and tested.
 
 
-
+# Screenshots
+![StartScreen](https://user-images.githubusercontent.com/69927855/147393143-4299303a-d0da-4f52-8868-aa8479704aea.png)
+![HomeScreen](https://user-images.githubusercontent.com/69927855/147393014-1621a847-aa35-4757-a2e4-548fb79bd0b6.png)
+![Settings](https://user-images.githubusercontent.com/69927855/147393015-fb3272bc-9769-4477-b7ca-28076884fdba.png)
+![AddFood](https://user-images.githubusercontent.com/69927855/147393016-87ada359-fa2e-45fd-825c-a6e99efbab7e.png)
+![FoodList](https://user-images.githubusercontent.com/69927855/147393018-2bf0d549-ca13-48a1-a7b5-73552becc3d6.png)
+![NutritionChart](https://user-images.githubusercontent.com/69927855/147393020-9a0add4b-564f-4baa-99e1-c300609a6e98.png)
 
 # Authors
 
